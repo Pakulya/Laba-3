@@ -20,7 +20,7 @@ int main() {
 	if (i != 1 || s != '\n') {
 		return 9;
 	}
-	if ((a <= 0) || (b <= 0)) {
+	if ((a < 0) || (b < 0)) {
 		printf("error:");
 		return 9;
 	}
